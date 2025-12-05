@@ -1,0 +1,88 @@
+# 🛰️ Mars Rover Prototype – Technical Report
+
+## 1. Introduction
+This document presents the design, fabrication and testing of a real **Mars Rover prototype** developed for rough-terrain locomotion and exploration research. The objective was to design a stable, lightweight and modular rover capable of navigating uneven planetary surfaces.
+
+---
+
+## 2. Mission Objectives
+- Develop a rover capable of traversing rocky and sandy terrain.
+- Maintain structural stability using a rocker-bogie suspension system.
+- Ensure modular components for easy maintenance and part replacement.
+- Integrate a camera stand for future autonomous navigation upgrades.
+
+---
+
+## 3. Design Requirements
+| Parameter | Target |
+|----------|--------|
+| Weight | Low weight for mobility |
+| Strength | Sustain static & dynamic loads |
+| Terrain | Capable of slopes, rocks & loose soil |
+| Safety | No tipping at high tilt angles |
+| Manufacturing | 3D-print compatible and low-cost |
+
+---
+
+## 4. Rover Subsystems
+### 4.1 Chassis System
+- Lightweight skeletal frame
+- Maximum rigidity with minimum mass
+
+### 4.2 Rocker-Bogie Suspension
+- Six-wheel independent suspension
+- Maintains balance on uneven terrain
+
+### 4.3 Wheel & Rim Assembly
+- Special tread geometry for high traction
+- Suitable for sandy and rocky surfaces
+
+### 4.4 Camera Mount Stand
+- Adjustable height
+- Ensures stable image capture
+
+### 4.5 Body Materials
+- PLA material for 3D printed components
+- Stainless steel fasteners for joints
+
+---
+
+## 5. Testing & Validation
+Testing was conducted to assess strength, durability and terrain performance.
+
+### 5.1 Static Load Test (SLT)
+- Evaluated deformation under applied load
+- Results: Structure remained within design tolerance
+
+### 5.2 Stress Test (ST)
+- Assessed long-duration repetitive load
+- No structural failure observed
+
+### 5.3 Terrain Test
+- Tested on gravel, mud and slopes
+- Maintained stability without tipping
+
+---
+
+
+
+The rover demonstrated **excellent stability and ground clearance**, proving the effectiveness of the rocker-bogie mechanism.
+
+---
+
+## 7. Future Scope
+- Integrate solar panel power system
+- Add motorized locomotion for autonomous movement
+- Add image processing and mapping capabilities
+
+---
+
+## 8. Conclusion
+The prototype successfully meets the mission requirements for planetary surface exploration. Its modular design, stability and validated performance make it suitable for future research in autonomous navigation and robotic exploration.
+
+---
+
+## 9. References
+- Team design notebooks
+- CAD files (available in this repository)
+- Test results (see `Tests/` folder)
